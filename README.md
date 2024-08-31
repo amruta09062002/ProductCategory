@@ -62,45 +62,55 @@ Replace your-username and your-password with your MySQL credentials.
 ## API Endpoints
 
   **Category Endpoints**
-Get Category by ID:
+  
+# Get Category by ID:
 
 GET /categories/{id}
 Response: JSON object of the category
-Create Category:
+
+# Create Category:
 
 POST /categories
 Request body: JSON object of the category
 Response: JSON object of the created category
-Update Category:
+
+# Update Category:
 
 PUT /categories/{id}
 Request body: JSON object of the category
 Response: JSON object of the updated category
-Delete Category:
+
+# Delete Category:
 
 DELETE /categories/{id}
 Response: HTTP 200 OK or 404 if not found
 
 **Product Endpoints**
-Get Product by ID:
+
+# Get Product by ID:
 
 GET /products/{id}
 Response: JSON object of the product
-Create Product:
+
+# Create Product:
 
 POST /products
 Request body: JSON object of the product
 Response: JSON object of the created product
-Update Product:
+
+# Update Product:
 
 PUT /products/{id}
 Request body: JSON object of the product
 Response: JSON object of the updated product
-Delete Product:
+
+# Delete Product:
 
 DELETE /products/{id}
 Response: HTTP 200 OK or 404 if not found
-Get Products with Pagination:
+
+
+**Get Products with Pagination:**
 
 GET /products?page={page}&size={size}
 Response: JSON array of products
